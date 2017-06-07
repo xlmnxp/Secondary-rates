@@ -1,0 +1,82 @@
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            معدلي
+        </title>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.4.0/css/bootstrap-rtl.min.css" />
+        <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css" rel="stylesheet" integrity="sha384-gv0oNvwnqzF6ULI9TVsSmnULNb3zasNysvWwfT/s4l8k5I+g6oFz9dye0wg3rQ2Q" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.4.0/css/bootstrap-flipped.min.css" />
+
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-static-top">
+        <div class="navbar-header"><a class="navbar-brand" href="#">معدلي</a>
+            <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </a>
+            </div>
+            <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="index.html">الرائيسية</a></li>
+            </ul>
+            </div>
+        </div>
+
+        <div class="container">        
+        <form class="form-inline row">
+        <div class="form-group col-md-3">
+            <label for="Secondary">المعدل الثنوي:</label><br/>
+            <input type="text" class="form-control" id="Secondary">
+        </div>
+        <div class="form-group col-md-3">
+            <label for="capacity">معدل القدرات:</label><br/>
+            <input type="text" class="form-control" id="capacity">
+        </div>
+        <div class="form-group col-md-3">
+            <label for="achievement">معدل التحصيلي:</label><br/>
+            <input type="text" class="form-control" id="achievement">
+        </div>
+        <div class="form-group col-md-3">
+            <label for="step">معدل step (خطوة) للانجليزي:</label><br/>
+            <input type="text" class="form-control" id="step">
+        </div>
+        </form>
+
+        <br/>
+        <div id="listview" class="row">
+            <div class="col-xs-18 col-sm-6 col-md-3" v-for="u in universities">
+            <div class="thumbnail">
+                <img :src="u.logo" style="width:auto; height: 100px;"/>
+                <div class="caption">
+                    <h4>{{ u.name }}</h4>
+                    <p>نسبة قبولك: {{ u.total || 'قم بادخال معدلاتك' }}</p>
+                    <a :href="u.location" target="_blank">موقع الجامعة على الخريطة</a>
+                    <br/>
+                    <div class="row">
+                        <div class="col-md-4"><center>الثانوية<br/>{{ u.Descent.Secondary || 'غير مطلوبة' }} </center></div>
+                        <div class="col-md-4"><center>القدرات<br/>{{ u.Descent.capacity || 'غير مطلوبة' }} </center></div>
+                        <div class="col-md-4"><center>التحصيلي<br/>{{ u.Descent.achievement || 'غير مطلوبة' }} </center></div>
+                        <div class="col-md-12"><center>الـ Step: {{ u.Descent.step || 'غير مطلوبة' }} </center></div>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+        </div>
+
+        <script src="https://unpkg.com/vue"></script>
+        <script src="app.js"></script>
+    </body>
+</html>
