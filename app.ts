@@ -175,7 +175,7 @@ var universities: Universities[] = [
     },
     {
         logo: 'https://upload.wikimedia.org/wikipedia/ar/1/15/Unijam.jpg',
-        name: "الحدود الشمالية - علمي",
+        name: "الحدود الشمالية - علمي - بنين / بنات",
         Descent: {
             Secondary: 50,
             capacity: 25,
@@ -204,18 +204,169 @@ var universities: Universities[] = [
     },
 
     // الصفحة الثانية
-    // {
-    //     logo: 'https://upload.wikimedia.org/wikipedia/ar/1/15/Unijam.jpg',
-    //     name: "الحدود الشمالية - إداري - بنات",
-    //     Descent: {
-    //         Secondary: 60,
-    //         capacity: 20,
-    //         achievement: 20
-    //     },
-    //     location: "https://www.google.com.sa/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D8%AD%D8%AF%D9%88%D8%AF+%D8%A7%D9%84%D8%B4%D9%85%D8%A7%D9%84%D9%8A%D8%A9%E2%80%AD/@30.8594311,41.2011767,17z/data=!3m1!4b1!4m5!3m4!1s0x156c11cb463229fd:0x8d29b9968fcead63!8m2!3d30.8594265!4d41.198988"
-    // },
+    {
+        logo: 'https://pbs.twimg.com/profile_images/574541116747309056/w6cWAiNT.png',
+        name: "الملك سعود - صحي - بنين / بنات",
+        Descent: {
+            Secondary: 30,
+            capacity: 30,
+            achievement: 40,
+        },
+        location: "https://www.google.com.sa/maps?q=%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D9%85%D9%84%D9%83+%D8%B3%D8%B9%D9%88%D8%AF&safe=strict&biw=1366&bih=605&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj71JestLLUAhVFWBoKHXriBS8Q_AUICigB"
+    },
+    {
+        logo: 'https://pbs.twimg.com/profile_images/574541116747309056/w6cWAiNT.png',
+        name: "الملك سعود - علمي / إداري - بنين / بنات",
+        Descent: {
+            Secondary: 60,
+            capacity: 20,
+            achievement: 20,
+        },
+        location: "https://www.google.com.sa/maps?q=%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D9%85%D9%84%D9%83+%D8%B3%D8%B9%D9%88%D8%AF&safe=strict&biw=1366&bih=605&um=1&ie=UTF-8&sa=X&ved=0ahUKEwj71JestLLUAhVFWBoKHXriBS8Q_AUICigB"
+    },
+    {
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Imam_Muhammad_Ibn_Saud_Islamic_University.svg/1200px-Imam_Muhammad_Ibn_Saud_Islamic_University.svg.png',
+        name: "الإمام محمد بن سعود - صحي - بنين / بنات",
+        Descent: {
+            Secondary: 25,
+            capacity: 20,
+            achievement: 40,
+            step: 15
+        },
+        location: "https://www.google.com.sa/maps?safe=strict&biw=1366&bih=605&q=%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D8%A7%D9%85%D8%A7%D9%85+%D9%85%D8%AD%D9%85%D8%AF+%D8%A8%D9%86+%D8%B3%D8%B9%D9%88%D8%AF&um=1&ie=UTF-8&sa=X&ved=0ahUKEwiD0ebltLLUAhXTSxoKHfeEAFoQ_AUICigB"
+    },
+    {
+        logo: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d9/Imam_Muhammad_Ibn_Saud_Islamic_University.svg/1200px-Imam_Muhammad_Ibn_Saud_Islamic_University.svg.png',
+        name: "الإمام محمد بن سعود - علمي / إداري - بنين / بنات",
+        Descent: {
+            Secondary: 60,
+            capacity: 20,
+            achievement: 20
+        },
+        location: "https://www.google.com.sa/maps?safe=strict&biw=1366&bih=605&q=%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D8%A7%D9%85%D8%A7%D9%85+%D9%85%D8%AD%D9%85%D8%AF+%D8%A8%D9%86+%D8%B3%D8%B9%D9%88%D8%AF&um=1&ie=UTF-8&sa=X&ved=0ahUKEwiD0ebltLLUAhXTSxoKHfeEAFoQ_AUICigB"
+    },
+    {
+        logo: 'https://upload.wikimedia.org/wikipedia/ar/thumb/1/13/PNoraU-logo.jpg/87px-PNoraU-logo.jpg',
+        name: "الأميرة نورة - صحي - بنين / بنات",
+        Descent: {
+            Secondary: 30,
+            capacity: 30,
+            achievement: 40
+        },
+        location: "https://www.google.com.sa/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%D8%A9+%D9%86%D9%88%D8%B1%D8%A9+%D8%A8%D9%86%D8%AA+%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D9%86%E2%80%AD/@24.8464662,46.7269195,17z/data=!3m1!4b1!4m5!3m4!1s0x140e8f02757ea8c9:0x2ae023476577aa2b!8m2!3d24.8464613!4d46.7247308"
+    },
+    {
+        logo: 'https://upload.wikimedia.org/wikipedia/ar/thumb/1/13/PNoraU-logo.jpg/87px-PNoraU-logo.jpg',
+        name: "الأميرة نورة - علمي / إداري - بنين / بنات",
+        Descent: {
+            Secondary: 60,
+            capacity: 20,
+            achievement: 20
+        },
+        location: "https://www.google.com.sa/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D8%A3%D9%85%D9%8A%D8%B1%D8%A9+%D9%86%D9%88%D8%B1%D8%A9+%D8%A8%D9%86%D8%AA+%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D9%86%E2%80%AD/@24.8464662,46.7269195,17z/data=!3m1!4b1!4m5!3m4!1s0x140e8f02757ea8c9:0x2ae023476577aa2b!8m2!3d24.8464613!4d46.7247308"
+    },
+    {
+        logo: 'https://pbs.twimg.com/profile_images/677129708551716865/Wv7mNv-E.jpg',
+        name: "القصيم - علمي - بنين / بنات",
+        Descent: {
+            Secondary: 30,
+            capacity: 30,
+            achievement: 40 
+        },
+        location: "https://www.google.com.sa/maps?q=%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D9%82%D8%B5%D9%8A%D9%85&safe=strict&biw=1366&bih=605&um=1&ie=UTF-8&sa=X&ved=0ahUKEwi6zNeQuLLUAhWPDRoKHXW7BsoQ_AUICygC"
+    },
+    {
+        logo: 'https://pbs.twimg.com/profile_images/677129708551716865/Wv7mNv-E.jpg',
+        name: "القصيم - إداري - بنين",
+        Descent: {
+            Secondary: 50,
+            capacity: 50
+        },
+        location: "https://www.google.com.sa/maps?q=%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D9%82%D8%B5%D9%8A%D9%85&safe=strict&biw=1366&bih=605&um=1&ie=UTF-8&sa=X&ved=0ahUKEwi6zNeQuLLUAhWPDRoKHXW7BsoQ_AUICygC"
+    },
+    {
+        logo: 'https://pbs.twimg.com/profile_images/677129708551716865/Wv7mNv-E.jpg',
+        name: "القصيم - إداري - بنات",
+        Descent: {
+            Secondary: 30,
+            capacity: 30,
+            achievement: 40 
+        },
+        location: "https://www.google.com.sa/maps?q=%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D9%82%D8%B5%D9%8A%D9%85&safe=strict&biw=1366&bih=605&um=1&ie=UTF-8&sa=X&ved=0ahUKEwi6zNeQuLLUAhWPDRoKHXW7BsoQ_AUICygC"
+    },
+    {
+        logo: 'http://faculty.mu.edu.sa/public/uploads/image/20150408/20150408145603_85226.jpg',
+        name: "المجمعة - علمي - بنين / بنات",
+        Descent: {
+            Secondary: 30,
+            capacity: 30,
+            achievement: 40,
+        },
+        location: "https://www.google.com.sa/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D9%85%D8%AC%D9%85%D8%B9%D8%A9%E2%80%AD/@25.8647931,45.4178732,17z/data=!3m1!4b1!4m5!3m4!1s0x3e2ac37d6f9e02c7:0x88da28f02e5b458c!8m2!3d25.8647931!4d45.4156845"
+    },
+    {
+        logo: 'http://faculty.mu.edu.sa/public/uploads/image/20150408/20150408145603_85226.jpg',
+        name: "المجمعة - إداري - بنين / بنات",
+        Descent: {
+            Secondary: 50,
+            capacity: 50
+        },
+        location: "https://www.google.com.sa/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D9%85%D8%AC%D9%85%D8%B9%D8%A9%E2%80%AD/@25.8647931,45.4178732,17z/data=!3m1!4b1!4m5!3m4!1s0x3e2ac37d6f9e02c7:0x88da28f02e5b458c!8m2!3d25.8647931!4d45.4156845"
+    },
+    {
+        logo: 'https://pbs.twimg.com/profile_images/2596097952/m94epuspmze6erxb7rt8.jpeg',
+        name: "الجوف - علمي - بنين / بنات",
+        Descent: {
+            Secondary: 30,
+            capacity: 30,
+            achievement: 40,
+        },
+        location: "https://www.google.com.sa/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D8%AC%D9%88%D9%81%E2%80%AD/@29.790749,40.0471827,17z/data=!3m1!4b1!4m5!3m4!1s0x1572cdf2521ed2dd:0x66e4d5d4a977a12!8m2!3d29.790749!4d40.044994"
+    },
+    {
+        logo: 'https://pbs.twimg.com/profile_images/2596097952/m94epuspmze6erxb7rt8.jpeg',
+        name: "الجوف - إداري - بنين / بنات",
+        Descent: {
+            Secondary: 60,
+            capacity: 40
+        },
+        location: "https://www.google.com.sa/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D8%AC%D9%88%D9%81%E2%80%AD/@29.790749,40.0471827,17z/data=!3m1!4b1!4m5!3m4!1s0x1572cdf2521ed2dd:0x66e4d5d4a977a12!8m2!3d29.790749!4d40.044994"
+    },
+    {
+        logo: 'https://upload.wikimedia.org/wikipedia/ar/e/ef/Su.edu.sa.jpg',
+        name: "شقراء - علمي - بنين / بنات",
+        Descent: {
+            Secondary: 30,
+            capacity: 30,
+            achievement: 40,
+        },
+        location: "https://www.google.com.sa/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%B4%D9%82%D8%B1%D8%A7%D8%A1%E2%80%AD/@25.1759128,45.1441983,17z/data=!3m1!4b1!4m5!3m4!1s0x3e2a71e14fe4622f:0xf74c9c2d40b084d0!8m2!3d25.1759128!4d45.1420096"
+    },
+    {
+        logo: 'https://upload.wikimedia.org/wikipedia/ar/e/ef/Su.edu.sa.jpg',
+        name: "شقراء - إداري - بنين / بنات",
+        Descent: {
+            Secondary: 60,
+            capacity: 40
+        },
+        location: "https://www.google.com.sa/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%B4%D9%82%D8%B1%D8%A7%D8%A1%E2%80%AD/@25.1759128,45.1441983,17z/data=!3m1!4b1!4m5!3m4!1s0x3e2a71e14fe4622f:0xf74c9c2d40b084d0!8m2!3d25.1759128!4d45.1420096"
+    }, 
 ]
+/**
 
+    {
+        logo: '',
+        name: "",
+        Descent: {
+            Secondary: ,
+            capacity: ,
+            achievement: ,
+            step: 
+        },
+        location: ""
+    },
+
+ */
 var universities_out:Universities[] = universities;
 
 function fixArray(Secondary: number, capacity: number, achievement?: number, step?: number): Universities[] {
@@ -226,7 +377,7 @@ function fixArray(Secondary: number, capacity: number, achievement?: number, ste
         total += ((<number> (achievement || 0) /100) * <number>(<Descent>university.Descent).achievement || 0);
         total += ((<number> (step || 0) /100) * <number>(<Descent>university.Descent).step || 0);
         
-        university.total = total;
+        university.total = parseFloat(total.toFixed(2));
 
         return university;
     });

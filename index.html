@@ -15,7 +15,7 @@
         <link href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/lumen/bootstrap.min.css" rel="stylesheet" integrity="sha384-gv0oNvwnqzF6ULI9TVsSmnULNb3zasNysvWwfT/s4l8k5I+g6oFz9dye0wg3rQ2Q" crossorigin="anonymous">
 
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-rtl/3.4.0/css/bootstrap-flipped.min.css" />
-
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
 
@@ -31,66 +31,97 @@
             <ul class="nav navbar-nav navbar-left">
                 <li class="active"><a href="index.html">الرائيسية</a></li>
             </ul>
-            <div class="col-sm-8 col-md-8">
-                <div class="navbar-form">
-                    <input type="text" class="form-control" placeholder="البحث" id="search" />
+            </div>
+        </div>
 
-                    <select class="form-control" id="Specialty">
+        <div class="container">        
+        <div class="form-inline row">
+        <div class="form-group col-md-3">
+            <label for="Secondary">المعدل الثنوي:</label><br/>
+            <input type="text" class="form-control" id="Secondary" style="width: 100%" />
+        </div>
+        <div class="form-group col-md-3">
+            <label for="capacity">معدل القدرات:</label><br/>
+            <input type="text" class="form-control" id="capacity" style="width: 100%" />
+        </div>
+        <div class="form-group col-md-3">
+            <label for="achievement">معدل التحصيلي:</label><br/>
+            <input type="text" class="form-control" id="achievement" style="width: 100%" />
+        </div>
+        <div class="form-group col-md-3">
+            <label for="step">معدل step (خطوة) للانجليزي:</label><br/>
+            <input type="text" class="form-control" id="step" style="width: 100%" />
+        </div>
+        </div>
+        <br/>
+        <div class="row">
+            <div class="navbar-form">
+                <div class="form-group col-md-6">
+                    <label for="search">البحث:</label><br/>
+                    <input type="text" class="form-control" placeholder="البحث" id="search" style="width: 100%" />
+                </div>
+
+                <div class="form-group col-md-3">
+                    <label for="Specialty">التخصص:</label><br/>
+                    <select class="form-control" id="Specialty" style="width: 100%">
                         <option selected value="">الكل</option>
                         <option value="صحي">صحي</option>
                         <option value="علمي">علمي</option>
                         <option value="إداري">إداري</option>
                     </select>
+                </div>
 
-                    <select class="form-control" id="sex">
+
+                <div class="form-group col-md-3">
+                    <label for="sex">الجنس:</label><br/>
+                    <select class="form-control" id="sex" style="width: 100%">
                         <option selected value="">الجنسين</option>
                         <option value="بنين">بنين</option>
                         <option value="بنات">بنات</option>
                     </select>
                 </div>
-                </div>
+
             </div>
         </div>
-
-        <div class="container">        
-        <form class="form-inline row">
-        <div class="form-group col-md-3">
-            <label for="Secondary">المعدل الثنوي:</label><br/>
-            <input type="text" class="form-control" id="Secondary">
-        </div>
-        <div class="form-group col-md-3">
-            <label for="capacity">معدل القدرات:</label><br/>
-            <input type="text" class="form-control" id="capacity">
-        </div>
-        <div class="form-group col-md-3">
-            <label for="achievement">معدل التحصيلي:</label><br/>
-            <input type="text" class="form-control" id="achievement">
-        </div>
-        <div class="form-group col-md-3">
-            <label for="step">معدل step (خطوة) للانجليزي:</label><br/>
-            <input type="text" class="form-control" id="step">
-        </div>
-        </form>
-
         <br/>
         <div id="listview" class="row">
+        <!--
             <div class="col-xs-18 col-sm-6 col-md-3" v-for="u in universities" style="height: 300px">
-            <div class="thumbnail">
-                <img :src="u.logo" style="width:auto; height: 100px;"/>
-                <div class="caption">
-                    <h4>{{ u.name }}</h4>
-                    <p>نسبة قبولك: {{ u.total || 'قم بادخال معدلاتك' }}</p>
-                    <a :href="u.location" target="_blank">موقع الجامعة على الخريطة</a>
-                    <br/>
-                    <div class="row">
-                        <div class="col-md-4"><center>الثانوية<br/>{{ u.Descent.Secondary || 'غير مطلوبة' }} </center></div>
-                        <div class="col-md-4"><center>القدرات<br/>{{ u.Descent.capacity || 'غير مطلوبة' }} </center></div>
-                        <div class="col-md-4"><center>التحصيلي<br/>{{ u.Descent.achievement || 'غير مطلوبة' }} </center></div>
-                        <div class="col-md-12"><center>الـ Step: {{ u.Descent.step || 'غير مطلوبة' }} </center></div>
+                <div class="thumbnail">
+                    <img :src="u.logo" style="width:auto; height: 100px;"/>
+                    <div class="caption">
+                        <h4>{{ u.name }}</h4>
+                        <p>نسبة قبولك: {{ u.total || 'قم بادخال معدلاتك' }}</p>
+                        <a :href="u.location" target="_blank">موقع الجامعة على الخريطة</a>
+                        <br/>
+                        <div class="row">
+                            <div class="col-md-4"><center>الثانوية<br/>{{ u.Descent.Secondary || 'غير مطلوبة' }} </center></div>
+                            <div class="col-md-4"><center>القدرات<br/>{{ u.Descent.capacity || 'غير مطلوبة' }} </center></div>
+                            <div class="col-md-4"><center>التحصيلي<br/>{{ u.Descent.achievement || 'غير مطلوبة' }} </center></div>
+                            <div class="col-md-12"><center>الـ Step: {{ u.Descent.step || 'غير مطلوبة' }} </center></div>
+                        </div>
                     </div>
                 </div>
             </div>
+        -->
+        <div class="col-sm-6 col-md-6" v-for="u in universities">
+            <div class="media">
+                <a class="pull-left" href="#">
+                    <img class="media-object dp img-circle" :src="u.logo" style="width: 100px;height:100px;">
+                </a>
+                <div class="media-body">
+                    <h4 class="media-heading">{{ u.name }} <small><a :href="u.location" target="_blank">على الخريطة</a></small></h4>
+                    <h5>معدلك الموزون: <span v-if="!u.total">قم بادخال معدلك</span><span v-if="u.total" style="font-size:19px;">{{ u.total }}%</span></h5>
+                    <hr style="margin:8px auto">
+
+                    <span :class="'label label-' + (u.Descent.Secondary ? 'info' : 'default' )" dir="rtl">الثانوية: {{ u.Descent.Secondary ? u.Descent.Secondary + "%" : 'غير مطلوبة' }}</span>
+                    <span :class="'label label-' + (u.Descent.capacity ? 'info' : 'default' )" dir="rtl">القدرات: {{ u.Descent.capacity ? u.Descent.capacity + "%" : 'غير مطلوبة' }}</span>
+                    <span :class="'label label-' + (u.Descent.achievement ? 'info' : 'default' )" dir="rtl">التحصيلي: {{ u.Descent.achievement ? u.Descent.achievement + "%" : 'غير مطلوبة' }}</span>
+                    <span :class="'label label-' + (u.Descent.step ? 'danger' : 'default' )" dir="rtl">الـ Step (خطوة): {{ u.Descent.step ? u.Descent.step + "%" : 'غير مطلوبة' }}</span>
+                </div>
             </div>
+        </div>
+
         </div>
         </div>
 
