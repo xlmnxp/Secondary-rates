@@ -372,6 +372,103 @@ var universities = [
         },
         location: "https://www.google.com.sa/maps/search/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D9%85%D9%84%D9%83+%D9%81%D9%8A%D8%B5%D9%84%E2%80%AD/@26.3106099,50.2146062,12z/data=!3m1!4b1"
     },
+    {
+        logo: 'https://cdn.sabq.org/uploads/media-cache/resize_800_relative_water_mark/uploads/sabq_old/files/org-news-image/412950.jpg',
+        name: "الدمام - صحي / إداري / علمي - بنين / بنات",
+        Descent: {
+            Secondary: 30,
+            capacity: 30,
+            achievement: 40
+        },
+        location: "https://www.google.com.sa/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D8%A5%D9%85%D8%A7%D9%85+%D8%B9%D8%A8%D8%AF%D8%A7%D9%84%D8%B1%D8%AD%D9%85%D9%86+%D8%A8%D9%86+%D9%81%D9%8A%D8%B5%D9%84%E2%80%AD/@26.3921656,50.1916505,17z/data=!3m1!4b1!4m5!3m4!1s0x3e49ef85c961edaf:0x7b2db98f2941c78c!8m2!3d26.3921608!4d50.1894618"
+    },
+    {
+        logo: 'http://portal.bu.edu.sa/image/journal/article?img_id=45919981',
+        name: "الباحة - صحي / علمي - بنين / بنات",
+        Descent: {
+            Secondary: 40,
+            capacity: 30,
+            achievement: 30
+        },
+        location: "https://www.google.com.sa/maps/place/%D8%A7%D9%84%D9%85%D8%A8%D9%86%D9%89+%D8%A7%D9%84%D8%A5%D8%AF%D8%A7%D8%B1%D9%8A+%D9%84%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D8%A8%D8%A7%D8%AD%D8%A9%E2%80%AD/@19.9943858,41.485185,17z/data=!3m1!4b1!4m5!3m4!1s0x15ef445379bf93a5:0xa5d0813a0bd11fe1!8m2!3d19.9943808!4d41.4829963"
+    },
+    {
+        logo: 'https://lh6.googleusercontent.com/proxy/c4z2QrdAOhB9NRYkimcx6dcKpA5g-VdF0G5ZYm-xyN084K5LSrcVHbz-ns566FevvDbDkcYZd8OCGVbu5q6NYidwpUWv3XFJOqs8rTP7eGbvz6UkxFLKl7uyhbhebYe_6Rz7-CgSeNPHK9DlNnWn8Q1AmlAurE8=w160-h160-k-no',
+        name: "الملك خالد - علمي - بنين / بنات",
+        Descent: {
+            Secondary: 30,
+            capacity: 30,
+            achievement: 40
+        },
+        location: "https://www.google.com.sa/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D9%85%D9%84%D9%83+%D8%AE%D8%A7%D9%84%D8%AF%E2%80%AD/@18.2488367,42.5595393,15z/data=!4m5!3m4!1s0x0:0xfecb4c77f4aa12ef!8m2!3d18.2488367!4d42.5595393"
+    },
+    {
+        logo: 'https://lh6.googleusercontent.com/proxy/c4z2QrdAOhB9NRYkimcx6dcKpA5g-VdF0G5ZYm-xyN084K5LSrcVHbz-ns566FevvDbDkcYZd8OCGVbu5q6NYidwpUWv3XFJOqs8rTP7eGbvz6UkxFLKl7uyhbhebYe_6Rz7-CgSeNPHK9DlNnWn8Q1AmlAurE8=w160-h160-k-no',
+        name: "الملك خالد - إداري - بنين",
+        Descent: {
+            Secondary: 50,
+            capacity: 50
+        },
+        location: "https://www.google.com.sa/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D9%85%D9%84%D9%83+%D8%AE%D8%A7%D9%84%D8%AF%E2%80%AD/@18.2488367,42.5595393,15z/data=!4m5!3m4!1s0x0:0xfecb4c77f4aa12ef!8m2!3d18.2488367!4d42.5595393"
+    },
+    {
+        logo: 'https://lh6.googleusercontent.com/proxy/c4z2QrdAOhB9NRYkimcx6dcKpA5g-VdF0G5ZYm-xyN084K5LSrcVHbz-ns566FevvDbDkcYZd8OCGVbu5q6NYidwpUWv3XFJOqs8rTP7eGbvz6UkxFLKl7uyhbhebYe_6Rz7-CgSeNPHK9DlNnWn8Q1AmlAurE8=w160-h160-k-no',
+        name: "الملك خالد - إداري - بنات",
+        Descent: {
+            Secondary: 30,
+            capacity: 30,
+            achievement: 40
+        },
+        location: "https://www.google.com.sa/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D9%85%D9%84%D9%83+%D8%AE%D8%A7%D9%84%D8%AF%E2%80%AD/@18.2488367,42.5595393,15z/data=!4m5!3m4!1s0x0:0xfecb4c77f4aa12ef!8m2!3d18.2488367!4d42.5595393"
+    },
+    {
+        logo: 'https://lh5.googleusercontent.com/proxy/ElX47bM8AmYAw-GMm9jVamcuJf0rsqWpn2lR1CeIh30ulUfdC3GyzU18Ip4Su02TZJcOrviMyL_7OumsXIpnpZKWJU5NhYoBbeMe48NOBZaS_tyIT8QzAfLDaefQ6HvsjQ89sL4v-Wr8jwYUN9zutIRVIbCbLw=w408-h485-k-no',
+        name: "جازان - علمي - بنين / بنات",
+        Descent: {
+            Secondary: 40,
+            capacity: 30,
+            achievement: 30
+        },
+        location: "https://www.google.com.sa/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%AC%D8%A7%D8%B2%D8%A7%D9%86%E2%80%AD/@16.9738813,42.5457944,17z/data=!3m1!4b1!4m5!3m4!1s0x1608075c2b71223f:0x5a9dc54b12ac9433!8m2!3d16.9738762!4d42.5436057"
+    },
+    {
+        logo: 'https://lh5.googleusercontent.com/proxy/ElX47bM8AmYAw-GMm9jVamcuJf0rsqWpn2lR1CeIh30ulUfdC3GyzU18Ip4Su02TZJcOrviMyL_7OumsXIpnpZKWJU5NhYoBbeMe48NOBZaS_tyIT8QzAfLDaefQ6HvsjQ89sL4v-Wr8jwYUN9zutIRVIbCbLw=w408-h485-k-no',
+        name: "جازان - إداري - بنين",
+        Descent: {
+            Secondary: 60,
+            capacity: 40,
+        },
+        location: "https://www.google.com.sa/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%AC%D8%A7%D8%B2%D8%A7%D9%86%E2%80%AD/@16.9738813,42.5457944,17z/data=!3m1!4b1!4m5!3m4!1s0x1608075c2b71223f:0x5a9dc54b12ac9433!8m2!3d16.9738762!4d42.5436057"
+    },
+    {
+        logo: 'https://lh5.googleusercontent.com/proxy/ElX47bM8AmYAw-GMm9jVamcuJf0rsqWpn2lR1CeIh30ulUfdC3GyzU18Ip4Su02TZJcOrviMyL_7OumsXIpnpZKWJU5NhYoBbeMe48NOBZaS_tyIT8QzAfLDaefQ6HvsjQ89sL4v-Wr8jwYUN9zutIRVIbCbLw=w408-h485-k-no',
+        name: "جازان - إداري - بنات",
+        Descent: {
+            Secondary: 40,
+            capacity: 30,
+            achievement: 30
+        },
+        location: "https://www.google.com.sa/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%AC%D8%A7%D8%B2%D8%A7%D9%86%E2%80%AD/@16.9738813,42.5457944,17z/data=!3m1!4b1!4m5!3m4!1s0x1608075c2b71223f:0x5a9dc54b12ac9433!8m2!3d16.9738762!4d42.5436057"
+    },
+    {
+        logo: 'https://lh5.googleusercontent.com/proxy/6eszXk4cnIzcXzf9-IHT2kS3f8_vU14VJDOVUzy8ORs7jwbdhM9mbTPin6rEQ4kPLno_N48QJO58cJVQCRwYdi1k1rqFVAhmgIo8PRQWTjZ76_NHNjw6Kmbj2wmlbuA2qJ5HE1Rqxr5kW5mdorR_weT9Lj8UH5A=w408-h316-k-no',
+        name: "نجران - علمي - بنين / بنات",
+        Descent: {
+            Secondary: 40,
+            capacity: 30,
+            achievement: 30
+        },
+        location: "https://www.google.com.sa/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D9%86%D8%AC%D8%B1%D8%A7%D9%86%E2%80%AD/@17.6348246,44.5429648,17z/data=!3m1!4b1!4m5!3m4!1s0x15ff2e6dbbb00b4b:0xa42cb1175c145d9e!8m2!3d17.6348195!4d44.5407761"
+    },
+    {
+        logo: 'https://lh5.googleusercontent.com/proxy/6eszXk4cnIzcXzf9-IHT2kS3f8_vU14VJDOVUzy8ORs7jwbdhM9mbTPin6rEQ4kPLno_N48QJO58cJVQCRwYdi1k1rqFVAhmgIo8PRQWTjZ76_NHNjw6Kmbj2wmlbuA2qJ5HE1Rqxr5kW5mdorR_weT9Lj8UH5A=w408-h316-k-no',
+        name: "نجران - إداري - بنين / بنات",
+        Descent: {
+            Secondary: 60,
+            capacity: 40,
+        },
+        location: "https://www.google.com.sa/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D9%86%D8%AC%D8%B1%D8%A7%D9%86%E2%80%AD/@17.6348246,44.5429648,17z/data=!3m1!4b1!4m5!3m4!1s0x15ff2e6dbbb00b4b:0xa42cb1175c145d9e!8m2!3d17.6348195!4d44.5407761"
+    },
 ];
 /**
 
@@ -418,6 +515,7 @@ var app4 = new Vue({
         universities_out: universities_out
     },
     computed: {
+        universities_out: universities_out,
         universities: function () {
             // cant fix this error :(
             return this.universities_out.filter(function (university) {

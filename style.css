@@ -21,4 +21,6 @@
 .label{
     border-radius: 0px;
     display: inline-block;
+    margin: 1px;
+    padding: 5px;
 }
