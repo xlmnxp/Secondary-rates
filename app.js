@@ -333,6 +333,45 @@ var universities = [
         },
         location: "https://www.google.com.sa/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%B4%D9%82%D8%B1%D8%A7%D8%A1%E2%80%AD/@25.1759128,45.1441983,17z/data=!3m1!4b1!4m5!3m4!1s0x3e2a71e14fe4622f:0xf74c9c2d40b084d0!8m2!3d25.1759128!4d45.1420096"
     },
+    {
+        logo: 'https://lh6.googleusercontent.com/proxy/L-y0B7Cy1Igtai8J943NtqrsotBLJsKB9iFJ8jfhzEBOTAB-KZXkoJFCEwKK-4Y3grVtsJn-ONIUHj-HKMJIMy4nMNbgmSkHKEeqvFeRMypaG8ZxOapSxjU8Dt61NNpUccjYIH9mqAiTvv6xTZh4rCtwDU1jkQ=w172-h160-k-no',
+        name: "جامعة الملك فهد للبترول والمعادن - علمي - بنين / بنات",
+        Descent: {
+            Secondary: 20,
+            capacity: 30,
+            achievement: 50
+        },
+        location: "https://www.google.com.sa/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D9%85%D9%84%D9%83+%D9%81%D9%87%D8%AF+%D9%84%D9%84%D8%A8%D8%AA%D8%B1%D9%88%D9%84+%D9%88%D8%A7%D9%84%D9%85%D8%B9%D8%A7%D8%AF%D9%86%E2%80%AD/@26.310473,50.1467538,17z/data=!3m1!4b1!4m5!3m4!1s0x3e49e65bb5c211d9:0x5258806f7443ff7d!8m2!3d26.3104682!4d50.1445651"
+    },
+    {
+        logo: 'https://www.kfu.edu.sa/ar/Deans/Library/PublishingImages/logo/logo-2.jpg',
+        name: "الملك فيصل - علمي - بنين / بنات",
+        Descent: {
+            Secondary: 30,
+            capacity: 30,
+            achievement: 40,
+        },
+        location: "https://www.google.com.sa/maps/search/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D9%85%D9%84%D9%83+%D9%81%D9%8A%D8%B5%D9%84%E2%80%AD/@26.3106099,50.2146062,12z/data=!3m1!4b1"
+    },
+    {
+        logo: 'https://www.kfu.edu.sa/ar/Deans/Library/PublishingImages/logo/logo-2.jpg',
+        name: "الملك فيصل - إداري - بنين",
+        Descent: {
+            Secondary: 60,
+            capacity: 40
+        },
+        location: "https://www.google.com.sa/maps/search/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D9%85%D9%84%D9%83+%D9%81%D9%8A%D8%B5%D9%84%E2%80%AD/@26.3106099,50.2146062,12z/data=!3m1!4b1"
+    },
+    {
+        logo: 'https://www.kfu.edu.sa/ar/Deans/Library/PublishingImages/logo/logo-2.jpg',
+        name: "الملك فيصل - إداري - بنات",
+        Descent: {
+            Secondary: 30,
+            capacity: 30,
+            achievement: 40
+        },
+        location: "https://www.google.com.sa/maps/search/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D9%85%D9%84%D9%83+%D9%81%D9%8A%D8%B5%D9%84%E2%80%AD/@26.3106099,50.2146062,12z/data=!3m1!4b1"
+    },
 ];
 /**
 

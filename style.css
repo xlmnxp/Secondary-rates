@@ -20,4 +20,5 @@
 
 .label{
     border-radius: 0px;
+    display: inline-block;
 }
