@@ -28,9 +28,27 @@
             </a>
             </div>
             <div class="navbar-collapse collapse">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav navbar-left">
                 <li class="active"><a href="index.html">الرائيسية</a></li>
             </ul>
+            <div class="col-sm-8 col-md-8">
+                <div class="navbar-form">
+                    <input type="text" class="form-control" placeholder="البحث" id="search" />
+
+                    <select class="form-control" id="Specialty">
+                        <option selected value="">الكل</option>
+                        <option value="صحي">صحي</option>
+                        <option value="علمي">علمي</option>
+                        <option value="إداري">إداري</option>
+                    </select>
+
+                    <select class="form-control" id="sex">
+                        <option selected value="">الجنسين</option>
+                        <option value="بنين">بنين</option>
+                        <option value="بنات">بنات</option>
+                    </select>
+                </div>
+                </div>
             </div>
         </div>
 
@@ -56,7 +74,7 @@
 
         <br/>
         <div id="listview" class="row">
-            <div class="col-xs-18 col-sm-6 col-md-3" v-for="u in universities">
+            <div class="col-xs-18 col-sm-6 col-md-3" v-for="u in universities" style="height: 300px">
             <div class="thumbnail">
                 <img :src="u.logo" style="width:auto; height: 100px;"/>
                 <div class="caption">
