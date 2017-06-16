@@ -470,21 +470,6 @@ var universities = [
         location: "https://www.google.com.sa/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D9%86%D8%AC%D8%B1%D8%A7%D9%86%E2%80%AD/@17.6348246,44.5429648,17z/data=!3m1!4b1!4m5!3m4!1s0x15ff2e6dbbb00b4b:0xa42cb1175c145d9e!8m2!3d17.6348195!4d44.5407761"
     },
 ];
-/**
-
-    {
-        logo: '',
-        name: "",
-        Descent: {
-            Secondary: ,
-            capacity: ,
-            achievement: ,
-            step:
-        },
-        location: ""
-    },
-
- */
 var universities_out = universities;
 function fixArray(Secondary, capacity, achievement, step) {
     var Fix = universities;

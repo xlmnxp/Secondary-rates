@@ -29,7 +29,7 @@ var universities: Universities[] = [
     },
     {
         logo: "https://sdl.edu.sa/training/Upload/Logo/Islamiclog.png",
-        name: "الجامعة الإسلامية - علمني - بنين / بنات",
+        name: "الجامعة الإسلامية - علمي - بنين / بنات",
         Descent: {
             Secondary: 50,
             capacity: 30,
@@ -77,7 +77,7 @@ var universities: Universities[] = [
     },
     {
         logo: "https://www.taibahu.edu.sa/_layouts/15/TaibahUniversity/images/logo-taibah.png",
-        name: "طيبة - عملي - بنين / بنات",
+        name: "طيبة - علمي - بنين / بنات",
         Descent: {
             Secondary: 50,
             capacity: 30,
