@@ -314,7 +314,7 @@ var universities: Universities[] = [
         location: "https://www.google.com.sa/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D9%85%D8%AC%D9%85%D8%B9%D8%A9%E2%80%AD/@25.8647931,45.4178732,17z/data=!3m1!4b1!4m5!3m4!1s0x3e2ac37d6f9e02c7:0x88da28f02e5b458c!8m2!3d25.8647931!4d45.4156845"
     },
     {
-        logo: 'https://pbs.twimg.com/profile_images/2596097952/m94epuspmze6erxb7rt8.jpeg',
+        logo: 'https://pbs.twimg.com/profile_images/884070865490640896/5_DRgZoa_bigger.jpg',
         name: "الجوف - علمي - بنين / بنات",
         Descent: {
             Secondary: 30,
@@ -324,7 +324,7 @@ var universities: Universities[] = [
         location: "https://www.google.com.sa/maps/place/%D8%AC%D8%A7%D9%85%D8%B9%D8%A9+%D8%A7%D9%84%D8%AC%D9%88%D9%81%E2%80%AD/@29.790749,40.0471827,17z/data=!3m1!4b1!4m5!3m4!1s0x1572cdf2521ed2dd:0x66e4d5d4a977a12!8m2!3d29.790749!4d40.044994"
     },
     {
-        logo: 'https://pbs.twimg.com/profile_images/2596097952/m94epuspmze6erxb7rt8.jpeg',
+        logo: 'https://pbs.twimg.com/profile_images/884070865490640896/5_DRgZoa_bigger.jpg',
         name: "الجوف - إداري - بنين / بنات",
         Descent: {
             Secondary: 60,
